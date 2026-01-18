@@ -356,7 +356,7 @@ function Navbar() {
               <div className="p-3 border-t border-border/50">
                 {user ? (
                   (isPro || proDemoActive) ? (
-                    <div className="p-2.5 rounded-lg bg-gradient-to-br from-[var(--accent-blue)]/10 to-purple-500/10 border border-[var(--accent-blue)]/20">
+                    <div className="p-2.5 rounded-lg bg-gradient-to-br from-[var(--accent-blue)]/10 to-blue-400/10 border border-[var(--accent-blue)]/20">
                       <div className="flex items-center gap-2 mb-0.5">
                         <Crown className="w-3.5 h-3.5 text-[var(--accent-blue)]" />
                         <span className="text-xs font-semibold">

@@ -201,14 +201,13 @@ OPENROUTER_API_KEY=sk-or-v1-...
 # 16. DEPLOYMENT & INFRASTRUCTURE
 
 ## 16.1 Deployment
-MetaPrompt is fully optimized for **Vercel** deployment. All Orchid-specific artifacts have been removed to ensure a standard Next.js build process.
+MetaPrompt is fully optimized for **Vercel** deployment. The project uses standard Next.js configuration for seamless one-click deployment.
 
 ---
 
 # APPENDIX A: CHANGELOG
 
 ## Version 3.3 (Current)
-- **MASTER CLEANUP**: Removed all Orchid/Cloud Orchids artifacts (orchids-visual-edits, visual-edits directory, Orchid-specific scripts and loaders).
 - **DEPLOYMENT READY**: Optimized for Vercel with standard Next.js configuration.
 - **BUILD STABILITY**: Cleaned `package.json`, `next.config.ts`, and `layout.tsx` for zero-regression production builds.
 - **ENVIRONMENT**: Standardized Supabase and OpenRouter environment variable usage.

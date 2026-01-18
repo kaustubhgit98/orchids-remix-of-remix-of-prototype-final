@@ -108,9 +108,9 @@
     --ring: #f8fafc;
     --chart-1: #0ea5e9;
     --chart-2: #6366f1;
-    --chart-3: #8b5cf6;
-    --chart-4: #a855f7;
-    --chart-5: #d946ef;
+    --chart-3: #0ea5e9;
+    --chart-4: #38bdf8;
+    --chart-5: #7dd3fc;
     --sidebar: #000000;
     --sidebar-foreground: #f8fafc;
     --sidebar-primary: #f8fafc;
@@ -120,10 +120,10 @@
     --sidebar-border: #1e293b;
     --sidebar-ring: #f8fafc;
     --border-subtle: rgba(255, 255, 255, 0.08);
-    --glow: rgba(139, 92, 246, 0.15);
-    --glow-strong: rgba(139, 92, 246, 0.25);
-    --accent-blue: #8b5cf6;
-    --accent-blue-light: #a78bfa;
+    --glow: rgba(14, 165, 233, 0.15);
+    --glow-strong: rgba(14, 165, 233, 0.25);
+    --accent-blue: #0ea5e9;
+    --accent-blue-light: #38bdf8;
   }
   
   @layer base {
@@ -134,14 +134,14 @@
       @apply bg-background text-foreground font-sans antialiased;
       font-feature-settings: "rlig" 1, "calt" 1;
       background-image: 
-        radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.03) 0, transparent 50%), 
-        radial-gradient(at 50% 0%, rgba(139, 92, 246, 0.02) 0, transparent 50%),
-        radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.03) 0, transparent 50%);
+        radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.03) 0, transparent 50%), 
+        radial-gradient(at 50% 0%, rgba(14, 165, 233, 0.02) 0, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.03) 0, transparent 50%);
     }
     .dark body {
       background-image: 
-        radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.05) 0, transparent 50%), 
-        radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.03) 0, transparent 50%);
+        radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.05) 0, transparent 50%), 
+        radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.03) 0, transparent 50%);
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -169,8 +169,8 @@
   .living-particles .particle:nth-child(1) {
     width: 8px;
     height: 8px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.9) 0%, rgba(139, 92, 246, 0) 70%);
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6), 0 0 40px rgba(139, 92, 246, 0.3);
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.9) 0%, rgba(14, 165, 233, 0) 70%);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.6), 0 0 40px rgba(14, 165, 233, 0.3);
     top: 15%;
     left: 10%;
     animation: particle-float-1 12s ease-in-out infinite, particle-pulse 4s ease-in-out infinite;
@@ -179,8 +179,8 @@
   .living-particles .particle:nth-child(2) {
     width: 12px;
     height: 12px;
-    background: radial-gradient(circle, rgba(167, 139, 250, 0.85) 0%, rgba(167, 139, 250, 0) 70%);
-    box-shadow: 0 0 25px rgba(167, 139, 250, 0.5), 0 0 50px rgba(167, 139, 250, 0.25);
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.85) 0%, rgba(56, 189, 248, 0) 70%);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.5), 0 0 50px rgba(56, 189, 248, 0.25);
     top: 25%;
     left: 85%;
     animation: particle-float-2 15s ease-in-out infinite, particle-pulse 5s ease-in-out infinite 0.5s;
@@ -189,8 +189,8 @@
   .living-particles .particle:nth-child(3) {
     width: 6px;
     height: 6px;
-    background: radial-gradient(circle, rgba(196, 181, 253, 0.95) 0%, rgba(196, 181, 253, 0) 70%);
-    box-shadow: 0 0 15px rgba(196, 181, 253, 0.7), 0 0 30px rgba(196, 181, 253, 0.35);
+    background: radial-gradient(circle, rgba(125, 211, 252, 0.95) 0%, rgba(125, 211, 252, 0) 70%);
+    box-shadow: 0 0 15px rgba(125, 211, 252, 0.7), 0 0 30px rgba(125, 211, 252, 0.35);
     top: 60%;
     left: 5%;
     animation: particle-float-3 10s ease-in-out infinite, particle-pulse 3s ease-in-out infinite 1s;
@@ -199,8 +199,8 @@
   .living-particles .particle:nth-child(4) {
     width: 10px;
     height: 10px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.8) 0%, rgba(139, 92, 246, 0) 70%);
-    box-shadow: 0 0 22px rgba(139, 92, 246, 0.55), 0 0 45px rgba(139, 92, 246, 0.28);
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.8) 0%, rgba(14, 165, 233, 0) 70%);
+    box-shadow: 0 0 22px rgba(14, 165, 233, 0.55), 0 0 45px rgba(14, 165, 233, 0.28);
     top: 75%;
     left: 90%;
     animation: particle-float-4 14s ease-in-out infinite, particle-pulse 4.5s ease-in-out infinite 1.5s;
@@ -209,8 +209,8 @@
   .living-particles .particle:nth-child(5) {
     width: 14px;
     height: 14px;
-    background: radial-gradient(circle, rgba(167, 139, 250, 0.75) 0%, rgba(167, 139, 250, 0) 70%);
-    box-shadow: 0 0 30px rgba(167, 139, 250, 0.45), 0 0 60px rgba(167, 139, 250, 0.22);
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.75) 0%, rgba(56, 189, 248, 0) 70%);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.45), 0 0 60px rgba(56, 189, 248, 0.22);
     top: 40%;
     left: 50%;
     animation: particle-float-5 18s ease-in-out infinite, particle-pulse 6s ease-in-out infinite 2s;
@@ -219,8 +219,8 @@
   .living-particles .particle:nth-child(6) {
     width: 5px;
     height: 5px;
-    background: radial-gradient(circle, rgba(221, 214, 254, 1) 0%, rgba(221, 214, 254, 0) 70%);
-    box-shadow: 0 0 12px rgba(221, 214, 254, 0.8), 0 0 25px rgba(221, 214, 254, 0.4);
+    background: radial-gradient(circle, rgba(186, 230, 253, 1) 0%, rgba(186, 230, 253, 0) 70%);
+    box-shadow: 0 0 12px rgba(186, 230, 253, 0.8), 0 0 25px rgba(186, 230, 253, 0.4);
     top: 10%;
     left: 45%;
     animation: particle-float-6 11s ease-in-out infinite, particle-pulse 3.5s ease-in-out infinite 0.8s;
@@ -229,8 +229,8 @@
   .living-particles .particle:nth-child(7) {
     width: 9px;
     height: 9px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.88) 0%, rgba(139, 92, 246, 0) 70%);
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6), 0 0 42px rgba(139, 92, 246, 0.3);
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.88) 0%, rgba(14, 165, 233, 0) 70%);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.6), 0 0 42px rgba(14, 165, 233, 0.3);
     top: 85%;
     left: 35%;
     animation: particle-float-7 13s ease-in-out infinite, particle-pulse 5.5s ease-in-out infinite 1.2s;
@@ -239,8 +239,8 @@
   .living-particles .particle:nth-child(8) {
     width: 7px;
     height: 7px;
-    background: radial-gradient(circle, rgba(196, 181, 253, 0.92) 0%, rgba(196, 181, 253, 0) 70%);
-    box-shadow: 0 0 18px rgba(196, 181, 253, 0.65), 0 0 35px rgba(196, 181, 253, 0.32);
+    background: radial-gradient(circle, rgba(125, 211, 252, 0.92) 0%, rgba(125, 211, 252, 0) 70%);
+    box-shadow: 0 0 18px rgba(125, 211, 252, 0.65), 0 0 35px rgba(125, 211, 252, 0.32);
     top: 50%;
     left: 20%;
     animation: particle-float-8 16s ease-in-out infinite, particle-pulse 4.2s ease-in-out infinite 2.5s;
@@ -249,8 +249,8 @@
   .living-particles .particle:nth-child(9) {
     width: 11px;
     height: 11px;
-    background: radial-gradient(circle, rgba(167, 139, 250, 0.82) 0%, rgba(167, 139, 250, 0) 70%);
-    box-shadow: 0 0 24px rgba(167, 139, 250, 0.52), 0 0 48px rgba(167, 139, 250, 0.26);
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.82) 0%, rgba(56, 189, 248, 0) 70%);
+    box-shadow: 0 0 24px rgba(56, 189, 248, 0.52), 0 0 48px rgba(56, 189, 248, 0.26);
     top: 30%;
     left: 70%;
     animation: particle-float-9 17s ease-in-out infinite, particle-pulse 5.8s ease-in-out infinite 0.3s;
@@ -259,8 +259,8 @@
   .living-particles .particle:nth-child(10) {
     width: 6px;
     height: 6px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.95) 0%, rgba(139, 92, 246, 0) 70%);
-    box-shadow: 0 0 15px rgba(139, 92, 246, 0.7), 0 0 30px rgba(139, 92, 246, 0.35);
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.95) 0%, rgba(14, 165, 233, 0) 70%);
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.7), 0 0 30px rgba(14, 165, 233, 0.35);
     top: 70%;
     left: 60%;
     animation: particle-float-10 12s ease-in-out infinite, particle-pulse 3.8s ease-in-out infinite 1.8s;
@@ -401,10 +401,10 @@
     z-index: 0;
     pointer-events: none;
     background-image: 
-      radial-gradient(ellipse 80% 50% at 10% 20%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
-      radial-gradient(ellipse 60% 40% at 90% 10%, rgba(167, 139, 250, 0.1) 0%, transparent 50%),
-      radial-gradient(ellipse 70% 60% at 80% 80%, rgba(196, 181, 253, 0.08) 0%, transparent 50%),
-      radial-gradient(ellipse 50% 50% at 20% 90%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+      radial-gradient(ellipse 80% 50% at 10% 20%, rgba(14, 165, 233, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 40% at 90% 10%, rgba(56, 189, 248, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse 70% 60% at 80% 80%, rgba(125, 211, 252, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse 50% 50% at 20% 90%, rgba(14, 165, 233, 0.1) 0%, transparent 50%);
     animation: mesh-breathe 20s ease-in-out infinite alternate;
   }
 
